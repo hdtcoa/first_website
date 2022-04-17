@@ -1,0 +1,100 @@
+body {
+    background-image: url("../images//blue_bg.jpg");
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header, .navbar, img {
+    box-shadow: 5px 5px 10px black;
+}
+
+h1, li, h2, h3, .school-info {
+    text-align: center;
+}
+
+header {
+    background-color: #000080;
+    color: #fffaff;
+    text-align: center;
+    font-size: 50px;
+    border: 3px solid #fffaff;
+}
+
+h1 {
+    font-size: 5vw;
+}
+
+li {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 2vw;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+.navbar{
+    background-color: #fffaff;
+    border: solid #000080;
+    border-collapse: collapse;
+    font-size: 15px;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar th {
+    border: solid #000080;
+    padding: 5px;
+}
+
+.active {
+    background-color: lightcoral;
+}
+
+.profile, .hobbies-table, .projects-table, .school-img, .subjects-table, .cca, .cca-details {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+}
+
+.dropdown {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    top: 150px;
+    left: 10px;
+    color: maroon;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.school-info {
+    font-size: 15px;
+}
+
+.cca {
+    display: block;
+}
+
+.cca-details {
+    font-size: 30px;
+    background-color: #fffaff;
+}
+
+footer {
+    background-color: #000080;
+    color: #fffaff;
+    font-size: 15px;
+    border: 3px solid #fffaff;
+    padding-left: 5px;
+}
